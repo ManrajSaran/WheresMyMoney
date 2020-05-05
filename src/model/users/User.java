@@ -1,18 +1,15 @@
 package model.users;
 
-//import com.sun.java.util.jar.pack.Instruction;
 
 import model.exceptions.BudgetLimitReachedException;
 import model.exceptions.ExceedingBudgetException;
-import model.pattern.Subject;
-import model.pattern.Observer;
 import model.expenses.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class User extends Subject {
+public class User {
     private final HashMap<String, List<Expense>> expenseList;
 
     private int income;
@@ -27,9 +24,7 @@ public class User extends Subject {
     public int livingSpending = 0;
     public int loansSpending = 0;
 
-    public User(UserManager manager) {
-        addObserver(manager);
-        notifyObservers(this);
+    public User() {
         expenseList = new HashMap<>();
         initialiseExpenses();
     }

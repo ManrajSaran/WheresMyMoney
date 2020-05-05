@@ -4,7 +4,6 @@ import model.exceptions.BudgetLimitReachedException;
 import model.exceptions.ExceedingBudgetException;
 import model.expenses.*;
 import model.users.User;
-import model.users.UserManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -14,18 +13,16 @@ import java.util.Date;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-public class UserTest {
+class UserTest {
     private User user1;
     private User user2;
-    private UserManager manager;
     private Date date;
 
 
     @BeforeEach
     void runBefore() {
-        manager = new UserManager();
-        user1 = new User(manager);
-        user2 = new User(manager);
+        user1 = new User();
+        user2 = new User();
         user1.setIncome(50000000);
         user1.setShoppingBudget(10000000);
         user1.setFoodBudget(10000000);
@@ -41,8 +38,18 @@ public class UserTest {
         user2.setLoansBudget(10000000);
         user2.setSavings(10000000);
 
-        date = new Date(2020, Calendar.JANUARY, 1);
+        Calendar cal = Calendar.getInstance();
+        cal.set(Calendar.YEAR, 2020);
+        cal.set(Calendar.MONTH, 1);
+        cal.set(Calendar.DAY_OF_MONTH, 1);
+        date = cal.getTime();
+    }
 
+    @Test
+    void testGetSavings() {
+        assertEquals(10000000, user1.getSaving());
+        user1.setSavings(5);
+        assertEquals(5, user1.getSaving());
     }
 
     @Test

@@ -16,9 +16,5 @@ public abstract class Expense {
     public int getAmount() {
         return this.amount;
     }
-
-//    public int getMonth() {
-//        return this.date.getMonth();
-//    }
 }
 

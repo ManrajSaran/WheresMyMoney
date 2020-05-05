@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5b73dfe-2e30-4d1e-89dc-0c5eec8a40ed" name="Default Changelist" comment="" />
+    <list default="true" id="b5b73dfe-2e30-4d1e-89dc-0c5eec8a40ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1/model/main/BudgetFormGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1/model/main/BudgetFormGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1/model/main/TransactionEntriesGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1/model/main/TransactionEntriesGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1/model/main/TransactionEntriesGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1/model/main/TransactionEntriesGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1/model/main/WheresMyMoney.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1/model/main/WheresMyMoney.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1/model/pattern/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1/model/pattern/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1/model/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1/model/users/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1/model/users/UserManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1/tests/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1/tests/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/expenses/Expense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/expenses/Expense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/main/BudgetFormGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/main/BudgetFormGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/pattern/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/pattern/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/users/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/users/UserManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/UserTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="177" />
+    <option name="myElementSize" value="181" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -18,7 +36,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bMMieYsXT3lFloiqr2UODUeb3c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -111,8 +133,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.WheresMyMoney" />
-        <item itemvalue="Application.main" />
         <item itemvalue="JUnit.All in 1" />
+        <item itemvalue="Application.main" />
         <item itemvalue="JUnit.UserTest.testRecommendNewLimitsDoubleOverSpent" />
         <item itemvalue="JUnit.UserTest.testRecommendNewLimitsSingleOverSpentNoLeftOver" />
       </list>
@@ -128,10 +150,23 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Personal_Project$tests_in_1.ic" NAME="tests in 1 Coverage Results" MODIFIED="1588469500431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Personal_Project$All_in_1.ic" NAME="All in 1 Coverage Results" MODIFIED="1588471174545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Personal_Project$All_in_1.ic" NAME="All in 1 Coverage Results" MODIFIED="1588642562386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
