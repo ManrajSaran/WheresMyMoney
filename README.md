@@ -19,3 +19,14 @@ All transactions are displayed to the user and can be removed as needed. The use
 
 ![Alt text](Workflows/RemoveTransactionsAndShowExpenses.gif)
 The new budget does not change fixed expenses such as living, savings and loan repayments and returns new limits for food and shopping expenses based on the respective inputted transactions. In the case that the user does not spend all of the allocated budget for either food or shopping, the excess amount is added to the loan repayment budget. The user may also view a graphical breakdown of their transaction history.
+
+## How To Run
+Clone the repo:
+```
+https://github.com/ManrajSaran/WheresMyMoney.git
+```
+Run from `WheresMyMoney.java`
+
+```
+src / model / main / WheresMyMoney.java
+```
